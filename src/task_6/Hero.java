@@ -28,6 +28,7 @@ public abstract class Hero implements Mortal {
     public void takeDamage(int damage) {
         health = health-damage;
     }
+
     public abstract void attackEnemy(Enemy enemy);
 
     @Override

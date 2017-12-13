@@ -13,6 +13,8 @@ public class ArithmeticOperations {
     double variableDouble;
     BigDecimal bigDecimal;
 
+
+
     public ArithmeticOperations(double variableDouble, BigDecimal bigDecimal) {
         this.variableDouble = variableDouble;
         this.bigDecimal = bigDecimal;
