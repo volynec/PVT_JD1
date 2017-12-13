@@ -5,6 +5,4 @@ package task_7;
  */
 public abstract class Shape implements Perimeterable {
   abstract   double area();
-
-
 }

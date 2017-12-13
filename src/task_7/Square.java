@@ -16,8 +16,5 @@ public class Square extends Quadrilateral {
         return 0;
     }
 
-    @Override
-    public double perimeter() {
-        return 0;
-    }
+
 }

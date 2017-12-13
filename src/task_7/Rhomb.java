@@ -11,13 +11,5 @@ public class Rhomb extends Quadrilateral {
         super(a, b, c, d);
     }
 
-    @Override
-    double area() {
-        return 0;
-    }
 
-    @Override
-    public double perimeter() {
-        return 0;
-    }
 }

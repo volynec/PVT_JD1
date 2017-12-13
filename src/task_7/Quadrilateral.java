@@ -3,12 +3,13 @@ package task_7;
 /**
  * Created by user on 12.12.2017.
  */
-public   class Quadrilateral extends Shape {
+public class Quadrilateral extends Shape {
 
     private Point a;
     private Point b;
     private Point c;
     private Point d;
+
 
     public Quadrilateral() {
     }
@@ -36,14 +37,13 @@ public   class Quadrilateral extends Shape {
         return d;
     }
 
-
     @Override
     double area() {
-        return 0;
+        return (a.distance(b) + b.distance(c) + a.distance(c)) / 2 + (a.distance(c) + a.distance(d) + c.distance(d) / 2);
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * (a.distance(b) + b.distance(c));
     }
 }

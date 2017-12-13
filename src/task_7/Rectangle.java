@@ -13,22 +13,10 @@ public class Rectangle extends Quadrilateral {
     }
 
     @Override
-    public double area() {
-
-        return  getA().distance(getB()) * getB().distance(getC());
-    }
-
-    @Override
-    public double perimeter() {
-
-        return 2 * (getA().distance(getB())) + getB().distance(getC());
-    }
-
-    @Override
     public String toString() {
 
-        return "Quadrilateral width: " + getA().distance(getB()) + " and length: " + getB().distance(getC())
+        return "Rectangle width: " + getA().distance(getB()) + " and length: " + getB().distance(getC())
                 + "\nResulting area: " + area()
-                + "\nResulting perimeter: " + perimeter() ;
+                + "\nResulting perimeter: " + perimeter() +"\n";
     }
 }
