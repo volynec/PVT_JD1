@@ -10,7 +10,6 @@ public class Quadrilateral extends Shape {
     private Point c;
     private Point d;
 
-
     public Quadrilateral() {
     }
 
@@ -37,6 +36,7 @@ public class Quadrilateral extends Shape {
         return d;
     }
 
+    
     @Override
     double area() {
         return (a.distance(b) + b.distance(c) + a.distance(c)) / 2 + (a.distance(c) + a.distance(d) + c.distance(d) / 2);

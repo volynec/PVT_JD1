@@ -46,7 +46,7 @@ public class ExampleArrayThree {
             }
         }
 
-        System.out.println("The sum of array elements located between the minimum and maximum values: " + amountBetweenMaxMini);
+        System.out.println("The addition of array elements located between the minimum and maximum values: " + amountBetweenMaxMini);
         System.out.println(Arrays.toString(sortArray(array)));
     }
     public static int[] sortArray(int[]array){

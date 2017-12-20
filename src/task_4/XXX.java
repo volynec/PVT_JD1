@@ -57,7 +57,7 @@ public class XXX {
                 System.out.println(String.format("Possible: %sx50 %sx20", fiftiesCount, twenties_remainder));
             }
         } else if (money < 100) {
-            //TODO: add logic
+            //TODO: addition logic
             //TODO: check odd
         } else if (money % 10 != 0) {
             throw new IllegalStateException(".xxx");
