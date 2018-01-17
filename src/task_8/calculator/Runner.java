@@ -8,11 +8,11 @@ import task_8.exampleAnnotation.myAnnatation.ClassAnalyzer;
 public class Runner {
     public static void main(String[] args) {
         Calc calc = new Calc(1,2.1);
-//        System.out.println(calc.addition());
-//        System.out.println(calc.divide());
-//        System.out.println(calc.multiplication());
-//        System.out.println(calc.subtraction());
-        ClassAnalyzer.analyze(calc);
+        System.out.println(calc.addition());
+        System.out.println(calc.divide());
+        System.out.println(calc.multiplication());
+        System.out.println(calc.subtraction());
+
 
     }
 }

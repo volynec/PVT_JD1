@@ -104,7 +104,7 @@ public class ATM {
                         " \n" + nominalHundred + " по 100р ");
                 flag = false;
                 break;
-            }else{
+            } else {
                 System.out.println("Нет подходящего номинала");
             }
 
